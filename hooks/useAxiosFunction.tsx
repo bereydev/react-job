@@ -8,7 +8,7 @@ interface CustomConfig {
   open?: boolean;
 }
 
-const BASE_URL = 'https://int.logifleet360.ch/lfr3/eg-services/';
+const BASE_URL = 'https://logifleet360.ch/lfr3/eg-services/';
 
 const LFAxios = axios.create({
   baseURL: BASE_URL,
@@ -30,8 +30,8 @@ function useAxiosFunction<T>(): [({ url, method, config, open }: CustomConfig) =
       setController(ctrl);
       if (!open) {
         config.headers = {
-          'X-LFR-MOBILEAPPKEY': 'ff4cfef3-a7de-4d4f-85be-42d55ce07895',
-          'X-LFR-USERID': 'ff0f6d81-b9a4-442d-af86-7aa285cb9492',
+          'X-LFR-MOBILEAPPKEY': 'c96d3af7-b77f-4c42-86f9-c75fac510dd8',
+          'X-LFR-USERID': '6f73d4b4-367e-48c4-bb9a-6eae77034f68',
         };
       }
       const res = await LFAxios({

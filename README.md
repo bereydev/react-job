@@ -3,22 +3,24 @@
 To start the task fork this repository.
 During this task you will translate a mock-up (link received by email) to code using Next.js and MUI community components. Any other tool/library is allowed, as soon as it is open-source or free to use. Any additional UI kits and any components from the MUI premium plans are forbiden in this build.
 
-Once finished you will have the opportunity to show your work and discuss your thinking process with our CEO. Please take an appointment using this link:
-https://calendly.com/bereydev
+**SPECIFICALLY DO NOT USE THE [DataGridPro](https://mui.com/x/react-data-grid/) MUIX COMPONENT**
+
+Once finished you will have the opportunity to show your work and discuss your thinking process with our CEO. Please take an appointment using the Calendly link in the email you received.
 
 **Even if there is timing constraint for this task try to not spend more than 1 day on the task. The main part of this code should take you about half a day to figure out.**
 
 ## Material and documentation
 
-- A high fidelity animated mock-up (see email)
-- A starting template (this repository) including the necessary NextAuth code to authenticate your request
-- A short gist documentation of the endpoints you will have to use (see email)
+- A starting template (this repository) including the necessary code to authenticate your requests (no login logout to implement)
+- A gist documentation of the endpoints you will have to use (see email)
+- A high fidelity animated mock-up (see gist)
 
 ## Features to implement during the task
 
 - Display objects in the list (one load for the whole list)
 - Add new objects to the list
-- Remove objects from the list
+- Modify an object
+- Remove/Delete objects from the list
 - Select elements in the list
 - Remove multiple selected objects from the list
 - Search through the list on every column
@@ -29,6 +31,7 @@ https://calendly.com/bereydev
 ## Bonus features
 
 - Pagination or lazy-loading of the elements in the list
+- Proper error handling
 - Responsive design (mobile, tablet -> some compromises can be done on the elements to display or not)
 - Add useful filters to the list
 - Search through the list by selecting a column

@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   const [fetch, error, loading, trackedObjects] = useAxiosFunction();
 
   function handleFetch() {
-    fetch({ url: 'tracking/trackingObjects' });
+    fetch({ url: 'trackingObjects/standalones' });
   }
 
   useEffect(() => {

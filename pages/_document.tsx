@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, DocumentContext } from 'next/document';
+import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
 
 class CustomDocument extends Document {
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
@@ -19,6 +19,7 @@ class CustomDocument extends Document {
         </Head>
         <body>
           <Main />
+          <NextScript />
         </body>
       </Html>
     );
