@@ -6,7 +6,9 @@ During this task you will translate a mock-up (link received by email) to code u
 
 **SPECIFICALLY DO NOT USE THE [DataGridPro](https://mui.com/x/react-data-grid/) MUIX COMPONENT**
 
-Once finished, if your code is selected you will have the opportunity to show your work and discuss your thinking process with our CEO. Send an email to job
+**Send an email to bereyziat.recruitment@gmail.com as soon as your finished with the task.**
+
+If your code is selected you will have the opportunity to show your work and discuss your thinking process with our CEO.
 
 **Even if there is timing constraint for this task try to not spend more than 1 day on the task. The main part of this code should take you about half a day to figure out.**
 
