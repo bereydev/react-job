@@ -1,6 +1,7 @@
 # Bereyziat Development Next.js React developer recruitment task
 
-To start the task fork this repository.
+To start the task use this repository as a TEMPLATE. Click the green button "Use this template" and create a **PRIVATE** repository from it. Add "bereydev" user as a collaborator to allow us to review your work.
+
 During this task you will translate a mock-up (link received by email) to code using Next.js and MUI community components. Any other tool/library is allowed, as soon as it is open-source or free to use. Any additional UI kits and any components from the MUI premium plans are forbiden in this build.
 
 **SPECIFICALLY DO NOT USE THE [DataGridPro](https://mui.com/x/react-data-grid/) MUIX COMPONENT**
